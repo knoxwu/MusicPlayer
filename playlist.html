@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
     <title>Exercise 1</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -8,38 +10,70 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <nav>
-          <ul class="nav nav-tabs">
-            <li class="active"><a href="#">Tab 1</a></li>
-            <li><a href="#">Tab 2</a></li>
-            <li><a href="#">Tab 3</a></li>
-          </ul>
-        </nav>
-      </header>
+      <div class="first">
+        <header>
+          <nav>
+            <ul class="nav nav-tabs">
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-music"></span>
+                <span>Library</span>
+                </a>
+              </li>
+              <li class="active"><a href="#">
+                  <span class="glyphicon glyphicon-th-list"></span>
+                  <span>Playlists</span>
+                </a>
+              </li>
+              <li><a href="#">
+                <span class="glyphicon glyphicon-search"></span>
+                <span>Search</span>
+                  </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
 
-      <section class="Playlsts">
+      <section class="Playlists">
+        <div class="title">
+          <button type="button" name="button">
+            <span class="glyphicon glyphicon-plus"></span>Playlist
+          </button>
+        </div>
         <div class="row">
           <div class="col-lg-6">
-            <h4>Subheading</h4>
-            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+            <h4><img class="cover" src="cover.png" alt="">90's Mega Mix
+              <span class="glyphicon glyphicon-chevron-right"></span></h4>
+              <div class="h_line"></div>
 
-            <h4>Subheading</h4>
-            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+            <h4><img class="cover" src="cover.png" alt="">Smooth Jazz
+              <span class="glyphicon glyphicon-chevron-right"></span></h4>
+              <div class="h_line"></div>
 
-            <h4>Subheading</h4>
-            <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-          </div>
+            <h4><img class="cover" src="cover.png" alt="">Eletronic
+              <span class="glyphicon glyphicon-chevron-right"></span></h4>
+              <div class="h_line"></div>
 
-          <div class="col-lg-6">
-            <h4>Subheading</h4>
-            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+            <h4><img class="cover" src="cover.png" alt="">Chill
+              <span class="glyphicon glyphicon-chevron-right"></span></h4>
+              <div class="h_line"></div>
 
-            <h4>Subheading</h4>
-            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+            <h4><img class="cover" src="cover.png" alt="">Studying
+              <span class="glyphicon glyphicon-chevron-right"></span></h4>
+              <div class="h_line"></div>
 
-            <h4>Subheading</h4>
-            <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+            <h4><img class="cover" src="cover.png" alt="">2000's Mix
+              <span class="glyphicon glyphicon-chevron-right"></span></h4>
+              <div class="h_line"></div>
+
+            <h4><img class="cover" src="cover.png" alt="">Favs
+              <span class="glyphicon glyphicon-chevron-right"></span></h4>
+              <div class="h_line"></div>
+
+            <h4><img class="cover" src="cover.png" alt="">Relaxing Poolside
+              <span class="glyphicon glyphicon-chevron-right"></span></h4>
+              <div class="h_line"></div>
           </div>
         </div>
       </section>
