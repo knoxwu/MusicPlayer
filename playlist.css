@@ -8,12 +8,30 @@
 }
 
 .active {
-  display: block;
-  background-color: #810082;
+  color: purple;
+}
+
+.changecolor:active{
+  background-color: purple;
 }
 header{
   width: 100%;
   background-color: #F9F9F9;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  z-index: 1;
+}
+.nav a{
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+}
+
+nav span{
+  display: block;
+
 }
 
 header .glyphicon{
@@ -24,23 +42,12 @@ header .glyphicon{
 li{
   width: 33.3%;
   text-align: center;
-}
-
-nav a{
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: #333333;
-}
-
-nav span{
-  display: block;
 
 }
 .Playlists{
   padding-left: 2.5%;
   padding-right: 2.5%;
-
+  margin-top: 20%;
 }
 
 .title button{
@@ -64,17 +71,23 @@ nav span{
   background-color: #999999;
 }
 .row span{
-  font-size: 25px;
+  font-size: 150%;
   color:#808080;
   float: right;
   margin-right: 5%;
+
 }
 img{
   height: 35px;
   width: 35px;
   border: 1px solid;
+  border-color: #959595;
   margin-right: 10%;
+
 }
 h4{
+  margin: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
   color: #936AC7;
 }
